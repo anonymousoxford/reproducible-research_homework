@@ -1,6 +1,13 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+\# 
+1. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
+2. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
+3. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
+4.
+5.
+6.
+7. #
 
 ## Instructions
 
