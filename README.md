@@ -17,9 +17,8 @@
 
    d) The following images are screenshots from the comparison view which show the 2 extra lines of code I added to make the code reproducible.
 
-      <img width="632" alt="image" src="https://github.com/anonymousoxford/reproducible-research_homework/assets/150164144/c019e91d-89b8-4886-99e7-5e3a00f33e69">
+   <img width="914" alt="image" src="https://github.com/anonymousoxford/reproducible-research_homework/assets/150164144/3b241a54-0bd0-42f3-b0e6-6336a99a470f">
 
-      <img width="608" alt="image" src="https://github.com/anonymousoxford/reproducible-research_homework/assets/150164144/68c62f0e-59d5-4388-9498-3921748f3ab3">
 
 
 
