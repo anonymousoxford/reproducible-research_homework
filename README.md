@@ -81,10 +81,19 @@
 
    e) Inputting the values of α and β into the allometric equation V = βL^α gives the equation V = 1181.807 * L^1.5152. When the value of L is given as 300kb, the volume of the dsDNA virus would be 6697007 nm3.
 
+Bonus Question:
+
+In scientific research, reproducibility refers to when the same results can be obtained from the same data, methods and code for example. On the other hand, replicability refers to when independent studies, which may have different methods with different data, can obtain the same or similar results (National Academies of Sciences, Engineering, and Medicine, 2019). There are several ways in which Github can increase the reproducibility and replicability of work. For example, version control means that it is easy to return to previous stages of your code, and so it is possible to reproduce the results from any step, as the input can be the same as previously, even if the script has since been changed (Braga et al., 2023). Moreover, as Github means that your code can be accessed by anyone, it means that your work is transparent, and it is easier for people to copy and reproduce (Braga et al., 2023). Also, Github gives lots of opportunities for documentation and explanation of your code and overall experiment, such as in the README files. When it is easy to understand your research, it is easier to reproduce your results using your data, or conduct a similar study to replicate your experiment (Braga et al., 2023). However, there are some limitations of using Github, for example if you have sensitive data which is not suitable to be shared publicly, or large datasets which might be difficult to store (Cosentino et al., 2016). 
 
 
    References:
+   
+   Braga, P.H.P., Hébert, K., Hudgins, E.J., Scott, E.R., Edwards, B.P., Sánchez Reyes, L.L., Grainger, M.J., Foroughirad, V., Hillemann, F., Binley, A.D. and Brookson, C.B., 2023. Not just for programmers: How GitHub can accelerate collaborative and reproducible research in ecology and evolution. Methods in Ecology and Evolution.
 
+   Cosentino, V., Luis, J. and Cabot, J., 2016, May. Findings from GitHub: methods, datasets and limitations. In Proceedings of the 13th International Conference on Mining Software Repositories (pp. 137-141).
+
+   National Academies of Sciences, Engineering, and Medicine, 2019. Reproducibility and replicability in science.
+   
    O’neill, M.E., 2014. PCG: A family of simple fast space-efficient statistically good algorithms for random number generation. ACM Transactions on Mathematical Software.
    
 
