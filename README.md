@@ -1,6 +1,5 @@
 # Reproducible research: version control and R
 
-\# 
 1. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
 
    
@@ -8,21 +7,22 @@
 
    
 3. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
+   
 
 4. a) When running the code for 2 random walks, I observe that the random walks which are produced are different to each other, and there is a different output every time the code is run. This is because there is randomisation in the random walk function, and so different steps are taken every time the code is run, resulting in a different trajectory. Although both random walks have the same number of random steps, they start and end in different places, make different shapes, and sometimes overlap more than other, and you are extremely unlikely to obtain the same output twice. Although these plots are good for showing how a random process works, this is not reproducible as every time the code is run, different results will be produced.
 
    b) A random seed is needed to initialise a pseudorandom number generator (O'neill, 2014). In order for random numbers to be generated, a seed is needed, which sets the beginning of the randomisation (O'neill, 2014). Although the pseudorandom number generators seem to produce random sequences, they are deterministic, as when you input the same seed, you should expect to receive the same output from the generator (O'neill, 2014). Therefore, random seeds are used when aiming to make work reproducible, because as long as the same seed is used, we will receive the same random sequence no matter where or when it is run.
 
-   c) The script for the reproducible code can be found in the file "Question 4 code.R".
+   c) The script for the reproducible code can be found in the "random_walk.R" file in the "question-4-code" folder.
 
-   d) The following images are screenshots from the comparison view which show the 2 extra lines of code I added to make the code reproducible.
+   d) The following image is a screenshot from the comparison view which show the 2 extra lines of code I added to make the code reproducible.
 
    <img width="914" alt="image" src="https://github.com/anonymousoxford/reproducible-research_homework/assets/150164144/3b241a54-0bd0-42f3-b0e6-6336a99a470f">
 
 
 
 
-6. Code for all parts of question 5 can be found in the file "Question 5 code.R".
+5. Code for all parts of question 5 can be found in the file "Question 5 code.R".
 
    a) There are 15 columns and 33 rows in the table. 
    
