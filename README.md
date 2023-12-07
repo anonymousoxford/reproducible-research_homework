@@ -11,7 +11,7 @@
 
 4. a) When running the code for 2 random walks, 
 
-5. Code for all aspects of question 5 can be found in the file 
+5. Code for all parts of question 5 can be found in the file "Question 5 code.R".
 
    a) There are 15 columns and 33 rows in the table. 
    
@@ -24,37 +24,35 @@
    When comparing my answers for the exponent and the scaling factors to those found in the article, they are the same, besides rounding. Their value for the allometric exponent was 1.52, which is the same as my answer of 1.5152 to 3 significant figures, and their value for the scaling factor was 1,182, which is also the same as my answer of 1181.807, but to 4 significant figures.
 
    d) #This finds the data from the right place in positcloud
-data <- read.csv("/cloud/project/question-5-data/Cui_etal2014.csv")
+      data <- read.csv("/cloud/project/question-5-data/Cui_etal2014.csv")
 
-#This installs and loads the necessary package
-install.packages(ggplot2)
-library(ggplot2)
+      #This installs and loads the necessary package
+      install.packages(ggplot2)
+      library(ggplot2)
 
-#This logs the data on both the virion volume and the genome length
-data$log_virion_volume <- log(data$Virion.volume..nm.nm.nm.)
-data$log_genome_length <- log(data$Genome.length..kb.)
+      #This logs the data on both the virion volume and the genome length
+      data$log_virion_volume <- log(data$Virion.volume..nm.nm.nm.)
+      data$log_genome_length <- log(data$Genome.length..kb.)
 
-#This creates the plot to match the one on the assignment sheet
-scatter_plot <- ggplot(data, aes(x = log_genome_length, y = log_virion_volume)) +
-  geom_point() +
-  geom_smooth(method = "lm", se = TRUE, color = "blue", linewidth = 0.7) +
-  #This adds a black linear regression line and grey confidence interval to the plot
+      #This creates the plot to match the one on the assignment sheet
+      scatter_plot <- ggplot(data, aes(x = log_genome_length, y = log_virion_volume)) +
+        geom_point() +
+        geom_smooth(method = "lm", se = TRUE, color = "blue", linewidth = 0.7) +
+        #This adds a black linear regression line and grey confidence interval to the plot
   
-  labs(
-    x = "log [Genome length (kb)]",
-    y = "log [Virion volume (nm3)]")+
-  theme_minimal() +
-  theme(
-    axis.title = element_text(face = "bold")
-  )
+        labs(
+          x = "log [Genome length (kb)]",
+          y = "log [Virion volume (nm3)]")+
+        theme_minimal() +
+        theme(
+          axis.title = element_text(face = "bold")
+        )
 
-#This displays the scatter plot
-scatter_plot
+      #This displays the scatter plot
+      scatter_plot
 
    e) Inputting the values of α and β into the allometric equation V = βL^α gives the equation V = 1181.807 * L^1.5152. When the value of L is given as 300kb, the volume of the dsDNA virus would be 6697007 nm3.
    
-7.
-8.
 
 ## Instructions
 
