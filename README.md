@@ -34,7 +34,8 @@
 
    When comparing my answers for the exponent and the scaling factors to those found in the article, they are the same, besides rounding. Their value for the allometric exponent was 1.52, which is the same as my answer of 1.5152 to 3 significant figures, and their value for the scaling factor was 1,182, which is also the same as my answer of 1181.807, but to 4 significant figures.
 
-   d) ``` R
+   d)
+   ``` R
    #This finds the data from the right place in positcloud
    
       data <- read.csv("/cloud/project/question-5-data/Cui_etal2014.csv")
