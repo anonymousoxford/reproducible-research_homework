@@ -13,7 +13,15 @@
 
    b) A random seed is needed to initialise a pseudorandom number generator (O'neill, 2014). In order for random numbers to be generated, a seed is needed, which sets the beginning of the randomisation (O'neill, 2014). Although the pseudorandom number generators seem to produce random sequences, they are deterministic, as when you input the same seed, you should expect to receive the same output from the generator (O'neill, 2014). Therefore, random seeds are used when aiming to make work reproducible, because as long as the same seed is used, we will receive the same random sequence no matter where or when it is run.
 
-   c)
+   c) The script for the reproducible code can be found in the file "Question 4 code.R".
+
+   d) The following images are screenshots from the comparison view which show the 2 extra lines of code I added to make the code reproducible.
+
+      <img width="632" alt="image" src="https://github.com/anonymousoxford/reproducible-research_homework/assets/150164144/c019e91d-89b8-4886-99e7-5e3a00f33e69">
+
+      <img width="608" alt="image" src="https://github.com/anonymousoxford/reproducible-research_homework/assets/150164144/68c62f0e-59d5-4388-9498-3921748f3ab3">
+
+
 
 6. Code for all parts of question 5 can be found in the file "Question 5 code.R".
 
