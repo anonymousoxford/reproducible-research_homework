@@ -20,6 +20,10 @@ data$log_genome_length <- log(data$Genome.length..kb.)
 lm_model <- lm(log_virion_volume ~ log_genome_length, data = data)
 
 #This shows the output of the linear model
+#a = 1.5152
+#logb = 7.0748
+#b = exp(7.0748) = 1181.807
+
 summary(lm_model)
 
 #Code for QUESTION d)
