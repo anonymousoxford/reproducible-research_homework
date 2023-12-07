@@ -9,9 +9,13 @@
    
 3. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
 
-4. a) When running the code for 2 random walks, 
+4. a) When running the code for 2 random walks, I observe that the random walks which are produced are different to each other, and there is a different output every time the code is run. This is because there is randomisation in the random walk function, and so different steps are taken every time the code is run, resulting in a different trajectory. Although both random walks have the same number of random steps, they start and end in different places, make different shapes, and sometimes overlap more than other, and you are extremely unlikely to obtain the same output twice. Although these plots are good for showing how a random process works, this is not reproducible as every time the code is run, different results will be produced.
 
-5. Code for all parts of question 5 can be found in the file "Question 5 code.R".
+   b) A random seed is needed to initialise a pseudorandom number generator (O'neill, 2014). In order for random numbers to be generated, a seed is needed, which sets the beginning of the randomisation (O'neill, 2014). Although the pseudorandom number generators seem to produce random sequences, they are deterministic, as when you input the same seed, you should expect to receive the same output from the generator (O'neill, 2014). Therefore, random seeds are used when aiming to make work reproducible, because as long as the same seed is used, we will receive the same random sequence no matter where or when it is run.
+
+   c)
+
+6. Code for all parts of question 5 can be found in the file "Question 5 code.R".
 
    a) There are 15 columns and 33 rows in the table. 
    
@@ -68,6 +72,12 @@
       scatter_plot
 
    e) Inputting the values of α and β into the allometric equation V = βL^α gives the equation V = 1181.807 * L^1.5152. When the value of L is given as 300kb, the volume of the dsDNA virus would be 6697007 nm3.
+
+
+
+   References:
+
+   O’neill, M.E., 2014. PCG: A family of simple fast space-efficient statistically good algorithms for random number generation. ACM Transactions on Mathematical Software.
    
 
 ## Instructions
