@@ -2,12 +2,23 @@
 
 \# 
 1. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
+
+   
 2. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
+
+   
 3. Find on my logistic_growth repo https://github.com/anonymousoxford/logistic_growth
-4.
-5.
-6.
-7. #
+
+4. a) When running the code for 2 random walks, 
+
+5. a) There are 15 columns and 33 rows in the table
+   
+   b) I used a log transformation to fit a linear model to the data. When both sides are logged, V = βL^α becomes log(V) = log(β) + αlog(L), where α is the gradient          
+      (exponent), and log(β) is the intercept (scaling factor) of the linear model.
+
+   c) From running the linear model, we obtain a value for the exponent (α) of 1.5152, and the intercept gives us log(β), which is 7.0748. 
+7.
+8.
 
 ## Instructions
 
